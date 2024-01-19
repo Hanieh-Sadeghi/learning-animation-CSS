@@ -8,13 +8,3 @@
     font-family: "Rubik", sans-serif;
 }
 
-
-html, body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-    background: rgb(42, 42, 42);
-    flex-direction: column;
-}
-
