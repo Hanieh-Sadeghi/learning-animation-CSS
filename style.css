@@ -7,7 +7,8 @@
     font-family: "Rubik", sans-serif;
 }
 
-body , .modal-header {
+body,
+.modal-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +61,27 @@ body {
 
 .modal-header .closeBtn {
     font-size: 35px;
-
 }
 
+.modal-header .closeBtn:hover {
+    color: rgb(56, 153, 191);
+}
+
+.modal-body {
+    padding: 15px 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+@keyframes animatetop {
+    from {
+        margin-top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 100px;
+        opacity: 1;
+    }
+
+}
